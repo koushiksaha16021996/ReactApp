@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Operation from './exam/Operation'
-import Todos from './Todos'
+
 ReactDOM.render(
   <React.StrictMode>
-    <Todos />
+    <Operation />
   </React.StrictMode>,
   document.getElementById('root')
 );
