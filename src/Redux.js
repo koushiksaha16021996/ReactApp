@@ -3,7 +3,7 @@ import { applyMiddleware, combineReducers, createStore } from "redux"
 import { composeWithDevTools } from "redux-devtools-extension"
 import thunk from "redux-thunk"
 
-console.log("----redux----")
+//console.log("----redux----")
 //const initialState = { counter: 0 }
 
 //const counterReducer=(state=initialState,action)=>{
