@@ -6,12 +6,11 @@ import Operation from './exam/Operation'
 import App from  './App'
 import {Provider} from 'react-redux'
 import {store} from './Redux'
+import Parentcounter from './counter/Parentcounter'
 
 ReactDOM.render(
   <React.StrictMode>
-   <Provider store={store}>
-    <App />
-   </Provider>
+   <Parentcounter/>
   </React.StrictMode>,
   document.getElementById('root')
 );
