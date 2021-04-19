@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Import project
+you can directly download from github as a zip file, and your local system you can unzip , and open this folder in vs code, here you see all the files are present.
+
 ## For counter app
 Parentcounter is a parent component and it placed in index.js.
 In counter app there is a two button one is for incement and one is for decrement.
