@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## For counter app
+Parentcounter is a parent component and it placed in index.js.
+In counter app there is a two button one is for incement and one is for decrement.
+click increase button you can see counter is increase by 1 , and when you press decrese button you see counter is decrese by 1.
+for increment and decrement there is no limit.
 ### `npm start`
 
 Runs the app in the development mode.\
