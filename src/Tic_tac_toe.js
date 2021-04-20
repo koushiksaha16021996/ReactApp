@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './Tic_tac_toe.css'
 class Tic_tac_toe extends Component{
     constructor(props){
         super(props);
@@ -11,11 +11,14 @@ class Tic_tac_toe extends Component{
     }
     squareClicked(index){
         
-        if(this.state.condition=="true"){
+        if(this.state.condition=="true" && this.state.Board[index]==''){
+
         let playerTurn=this.state. player_turn
         let board = this.state.Board
         console.log("index",index)
         board[index]=playerTurn
+
+        
 
         let winning=[
             [0,1,2],
@@ -47,7 +50,8 @@ class Tic_tac_toe extends Component{
         this.setState({
             player_turn:playerTurn,
             Board : board
-        })}
+        })
+    }
     }
     render(){
         return(

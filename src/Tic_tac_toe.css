@@ -18,18 +18,19 @@
   
   
   .board{
-    width: 30px;
-    height: 30px;
+    width: 602px;
+    height:602px;
     margin: auto;
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
   }
   .square{
-    width: 10px;
-    height:10px;
+    width: 200px;
+    height:200px;
     border: 1px solid black;
-
+    text-align: center;
+    padding-top: 60px;
   }
   .square:hover{
     background: cadetblue;
