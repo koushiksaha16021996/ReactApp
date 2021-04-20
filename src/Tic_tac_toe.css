@@ -1,38 +1,93 @@
 .App {
     text-align: center;
+  
   }
-  
-  
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+
+  .nameColour{
+    color: rgb(147, 159, 172);
+    margin-top: 10px;
+    margin-left: 32%;
+  }
+
+  .winner{
+    color: rgb(236, 97, 97);
+    margin-top: 10px;
+    margin-left:28%;
+  }
+
+  .root{
+    display:inline-flex;
+  }
+
+  .eachHistory{
+    width:200px ;
+    height:44.44444444444444px;
+    border: 1px solid lightsteelblue;
+    text-align: center;
     align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+    border-radius: 20px;
+    margin: 3px;
+    background: white;
   }
-  
-  
-  
+
+  .history{
+    text-align: center;
+    width: 200px;
+    height: 440px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .board{
-    width: 602px;
-    height:602px;
+    width: 459px;
+    height:458px;
     margin: auto;
-    border: 1px solid black;
+    margin-top: 30px;
+    background: rgb(202, 217, 238);
     display: flex;
     flex-wrap: wrap;
+    border-radius: 20px;
+    padding:1px;
+    box-shadow: 0px 0px 10px 3px lightsteelblue;
   }
   .square{
-    width: 200px;
-    height:200px;
-    border: 1px solid black;
+    width: 150px;
+    height:150px;
+    border: 1px solid lightsteelblue;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 50px;
+    border-radius: 20px;
+    margin: 1px;
+    background: white;
   }
   .square:hover{
-    background: cadetblue;
+    background: rgb(219, 212, 238);
     cursor: pointer;
   }
+
+
+  .button {
+    margin-top: 20px;
+    width: 200px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff7f5f;
+    border: none;
+    border-radius: 15px;
+    box-shadow:0 0 9px 5px #999;
+    margin-left: 37%;
+  }
+  
+  .button:hover {background-color: #8e3e4f}
+  
+  .button:active {
+    background-color: #ec1c1c;
+    box-shadow:0 0 5px 5px  #666;
+    transform: translateY(6px);
+  }
+ 

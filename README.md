@@ -14,7 +14,7 @@ also you can find target file from index.js.
 
 
 ## For Tic tac toe app
-simple tic tac toe game using state. here i use map function for setting the board and each square in side the board have onClick function, in the function index pass as a parameter . after each click check for the winner if winner found then the winning message shows in alert. 
+simple tic tac toe game using state. here i use map function for setting the board and each square in side the board have onClick function, in the function index pass as a parameter . after each click check for the winner if winner found then the winning message shows in top of the board, and if result draw then result shows in alert. 
 
 
 

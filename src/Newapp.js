@@ -1,5 +1,5 @@
 import { Cakecontainer } from './reduxtutorials/Cakecontainer';
-import './Newapp.css'
+
 import {Provider} from 'react-redux'
 import {store} from './redux/Store'
 
