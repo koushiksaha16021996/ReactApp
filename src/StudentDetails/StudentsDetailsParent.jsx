@@ -103,13 +103,13 @@ const StudentDetailsParent=()=>{
                 "Grades": ""
             }]
     });
-    const DeleteDetails=(id=>{
+    const DeleteDetails=(id)=>{
         const persons=state.persons.filter(persons=>persons.regId!==id)
         Setstate({
             ...state,
             persons
         })
-    })
+    }
 
     const AddorEditperson=(person)=>{
         console.log(person)

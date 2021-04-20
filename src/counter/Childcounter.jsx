@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
 
 const Childcounter=(props)=>{
     const {name,counter,increase,decrease}=props;
@@ -9,6 +10,7 @@ const Childcounter=(props)=>{
         <button onClick={increase}>incrase</button>
         <h1>Counter: {counter}</h1>
         <button onClick={decrease}>decrease</button>
+        
     </div>
     )
 }

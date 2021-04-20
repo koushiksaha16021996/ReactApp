@@ -30,10 +30,10 @@ const todoReducer=(state={
 //    todos: todoReducer})
 export const store=createStore(todoReducer , composeWithDevTools(applyMiddleware(thunk)))
 
-export const getTodos=(payload)=>{
+export const getTodos=(payloads)=>{
     return{
         type: "SHOW",
-        payload
+        payload: payloads
     }
 }
 

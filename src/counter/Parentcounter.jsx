@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 import Childcounter from './Childcounter'
 
@@ -10,6 +11,7 @@ class Parentcounter extends Component{
         this.counter=0;
         this.name="koushik";
     }
+    
     incrementplus=()=>{
         console.log("ok done")
        this.setState({

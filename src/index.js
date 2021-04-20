@@ -7,10 +7,13 @@ import App from  './App'
 import {Provider} from 'react-redux'
 import {store} from './Redux'
 import Parentcounter from './counter/Parentcounter'
+import Newapp from './Newapp'
+import StudentDetailsParent from './StudentDetails/StudentsDetailsParent'
+import Tic_tac_toe from './Tic_tac_toe'
 
 ReactDOM.render(
   <React.StrictMode>
-   <Parentcounter/>
+   <Tic_tac_toe/>
   </React.StrictMode>,
   document.getElementById('root')
 );
