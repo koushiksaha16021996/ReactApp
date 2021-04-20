@@ -18,16 +18,16 @@
   
   
   .board{
-    width: 33rem;
-    height: 33rem;
+    width: 30px;
+    height: 30px;
     margin: auto;
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
   }
   .square{
-    width: 10rem;
-    height:10rem;
+    width: 10px;
+    height:10px;
     border: 1px solid black;
 
   }

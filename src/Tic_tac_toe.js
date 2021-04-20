@@ -52,9 +52,9 @@ class Tic_tac_toe extends Component{
     render(){
         return(
             <div className="App">
-                
+                <h1>Tic tac toe game</h1>
                 <div className="board">
-                    {this.state.Board.map((item,index)=><div onClick={()=>this.squareClicked(index)} className="square">{item}</div>)}
+                    {this.state.Board.map((item,index)=><div onClick={()=>this.squareClicked(index)} className="square"><h2>{item}</h2></div>)}
                 </div>
             </div>
         )
