@@ -5,10 +5,13 @@ class Tic_tac_toe extends Component{
         super(props);
         this.state={
             player_turn:"X",
-            Board:["","","","","","","","",""]
+            Board:["","","","","","","","",""],
+            condition: "true"
         }
     }
     squareClicked(index){
+        
+        if(this.state.condition=="true"){
         let playerTurn=this.state. player_turn
         let board = this.state.Board
         console.log("index",index)
@@ -24,7 +27,7 @@ class Tic_tac_toe extends Component{
             [0,4,8],
             [2,4,6]
         ]
-
+        let conditions="true"
         for(let i=0;i<winning.length;i++){
             let winer=winning[i]
             let c1=winer[0]
@@ -32,16 +35,19 @@ class Tic_tac_toe extends Component{
             let c3=winer[2]
             if(board[c1]!=''&&board[c1]==board[c2]&&board[c2]==board[c3]&&board[c3]==board[c1]){
                 alert(`winning player ${playerTurn}`)
+                conditions="false"
             }
-
         }
+        this.setState({
+            condition: conditions
+        })
 
 
         playerTurn=(playerTurn=="X")?"O":"X"
         this.setState({
             player_turn:playerTurn,
             Board : board
-        })
+        })}
     }
     render(){
         return(
